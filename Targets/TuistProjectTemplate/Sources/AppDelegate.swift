@@ -1,6 +1,4 @@
 import UIKit
-import TuistProjectTemplateKit
-import TuistProjectTemplateUI
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -13,12 +11,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     ) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
         let viewController = UIViewController()
-        viewController.view.backgroundColor = .white
+        viewController.view.backgroundColor = .systemPurple
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()
-        TuistProjectTemplateKit.hello()
-        TuistProjectTemplateUI.hello()
-
         return true
     }
 
