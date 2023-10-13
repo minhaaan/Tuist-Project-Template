@@ -5,7 +5,7 @@ let dependencies: [TargetDependency] = [
 ]
 
 let project = Project(
-  name: "TuistProjectTemplate",
+  name: Setting.appName,
   organizationName: "com.minan.TuistProjectTemplate",
   packages: [],
   settings: nil,
