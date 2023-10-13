@@ -9,8 +9,5 @@ let project = Project(
   organizationName: "com.minan.TuistProjectTemplate",
   packages: [],
   settings: nil,
-  targets: Project.makeAppTargets(
-    name: "TuistProjectTemplate",
-    dependencies: dependencies
-  )
+  targets: 
 )
