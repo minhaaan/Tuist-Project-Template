@@ -38,6 +38,7 @@ let testTarget = Target(
   infoPlist: .default,
   sources: ["Tests/**"],
   dependencies: [
+    .target(name: Setting.appName)
   ],
   settings: .settings(
     base: baseSetting, configurations: [], defaultSettings: .recommended
