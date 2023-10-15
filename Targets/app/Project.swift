@@ -47,7 +47,6 @@ let testTarget = Target(
 
 let project = Project(
   name: Setting.appName,
-  organizationName: "com.minan.TuistProjectTemplate",
   packages: [],
   settings: nil,
   targets: [
