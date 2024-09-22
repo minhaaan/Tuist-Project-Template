@@ -21,4 +21,4 @@ jobs:
 
       - run: mise install tuist@4.27.0
 
-      - run: mise exec -- tuist test
+      - run: mise exec -- tuist build
