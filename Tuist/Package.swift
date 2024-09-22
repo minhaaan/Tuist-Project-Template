@@ -12,7 +12,7 @@ let packageSettings = PackageSettings(
 #endif
 
 let package = Package(
-  name: "AppStore",
+  name: "App",
   dependencies: [
   ]
 )

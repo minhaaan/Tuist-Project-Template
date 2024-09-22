@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  AppStore
+//  App 
 //
 //  Created by 최민한 on 9/7/24.
 //
