@@ -1,0 +1,23 @@
+import ProjectDescription
+import ProjectDescriptionHelpers
+
+// DetailExample
+let project = Project.makeModule(
+  name: "{{ name }}Example",
+  product: .app,
+  dependencies: [
+    .Feature.{{ name }}.{{ name }}
+  ],
+  infoPlist: [
+    "CFBundleShortVersionString": "1.0",
+    "CFBundleVersion": "1",
+    "UIMainStoryboardFile": "",
+    "UILaunchStoryboardName": "LaunchScreen",
+    "UISupportedInterfaceOrientations": [
+      "UIInterfaceOrientationPortrait"
+    ],
+    "UISupportedInterfaceOrientations~ipad": [
+      "UIInterfaceOrientationPortrait"
+    ],
+  ]
+)
